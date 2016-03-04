@@ -81,7 +81,3 @@ stdResults = squeeze(std(Results,0,2) / sqrt(size(Results,2)));
 
 %% Show the experimental results
 printmat([meanResults,stdResults],[dataset,' by ',method],'Time ExactM HammingS MacroF1 MicroF1','Mean Std.');
-
-%% Save the evaluation results
-filename=strcat('results/',[dataset,'_',method],'.mat');
-save(filename,'meanResults','stdResults','-mat');
