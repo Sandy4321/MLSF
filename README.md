@@ -1,5 +1,5 @@
 # MLSF
-Multi-Label Classification by Mining Meta-Label Specific Features.
+Multi-Label Classification with Meta-Label Specific Features.
 
 This is an example MATLAB program for conducting experiments in [1].
 

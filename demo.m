@@ -1,6 +1,6 @@
 % This is an example program for the paper: 
 % 
-% Lu Sun et al. Multi-label classification by mining meta-label specific features. ICPR-16. 
+% Lu Sun et al. Multi-label classification with meta-label specific features. ICPR-16. 
 %
 % The program shows how the MLSF program (The main function is "MLSF.m") can be used.
 %
@@ -9,7 +9,7 @@
 % LIBSVM -- A Library for Support Vector Machines
 % URL: http://www.csie.ntu.edu.tw/~cjlin/libsvm
 
-%% Make experiments repeatly
+%% Make experiments repeatedly
 rng(1);
 
 %% Add necessary pathes

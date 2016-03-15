@@ -1,5 +1,5 @@
 function Pre_Labels = MLSF( train_data,train_target,test_data,opts )
-% MLSF MLC by mining Meta-Label Specific Features [1]
+% MLSF MLC with Meta-Label Specific Features [1]
 %
 %    Syntax
 %
@@ -21,7 +21,7 @@ function Pre_Labels = MLSF( train_data,train_target,test_data,opts )
 %       Output:
 %           Pre_Labels       An L x Nt predicted label matrix, each column is a predicted label set
 %
-%  [1] Lu Sun et al. Multi-label classification by mining meta-label specific features. ICPR-16. 
+%  [1] Lu Sun et al. Multi-label classification with meta-label specific features. ICPR-16. 
 
 %% Set parameters
 cluster_size = opts.size;
